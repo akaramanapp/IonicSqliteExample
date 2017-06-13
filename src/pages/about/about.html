@@ -1,0 +1,14 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      About
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <input type="text" [(ngModel)]="username"><br \>
+  <button ion-button color="secondary" (click)="createDb()">Create Db</button><br \>
+  <button ion-button color="secondary" (click)="save(username)">Save</button><br \>
+  <button ion-button color="warning" (click)="getName()">Get Name</button><br \>
+</ion-content>
